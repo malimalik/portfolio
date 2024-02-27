@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import Welcome from "./Components/homepage/Welcome";
 import Resume from "./Components/resume/Resume";
+import Footer from "./Components/Footer";
 import Freelancing from "./Components/freelancing/Freelancing";
 import TheRealWorld from "./Components/trw/TheRealWorld";
 import Header from "./Components/Header";
@@ -42,6 +43,7 @@ function App() {
       <Header onNavLinkClick={(page) => navigateToPage(page)} />
 
       {pageContent}
+      <Footer></Footer>
     </>
   );
 }

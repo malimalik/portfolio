@@ -46,6 +46,19 @@ const About = () => {
             your Bugatti?
           </p>
         </div>
+        <div className="w-auto">
+          <h3 className="mb-2 mt-2 p-4 md:p-3 text-lg 
+          font-bold leading-loose tracking-tight
+           text-gray-900 md:text-2xl lg:text-5xl
+           dark:text-black">
+            My past
+          </h3>
+          <p className="mb-2 mt-2 p-4">
+            Here is why your past and my past matters.
+            Inside of TRW, I have learned a lot. I am mainly in the content creation and AI campus.
+            This has allowed me to stay put for a very long time.
+          </p>
+        </div>
       </section>
     </>
   );

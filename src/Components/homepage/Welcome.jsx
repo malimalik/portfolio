@@ -5,7 +5,7 @@ const Welcome = () => {
     <section className="flex flex-col md:flex-row justify-center items-center">
       {/* Text Content */}
       <div className="w-full md:w-1/2 p-4 md:p-10">
-        <h1 className="mb-2 mt-10 p-4 md:p-10 text-4xl font-extrabold leading-loose tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
+        <h1 className="mb-2 mt-10 p-4 md:p-10 text-4xl font-extrabold leading-10 tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
           Hey there, I am Ali - The TRW Super Soldier 🎖️
         </h1>
 
