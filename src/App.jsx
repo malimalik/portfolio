@@ -5,7 +5,7 @@ import Welcome from "./Components/homepage/Welcome";
 import Resume from "./Components/resume/Resume";
 import Footer from "./Components/Footer";
 import Freelancing from "./Components/freelancing/Freelancing";
-import TheRealWorld from "./Components/trw/TheRealWorld";
+import Work from "./Components/work/Work";
 import Header from "./Components/Header";
 import About from "./Components/about/About";
 import "./App.css";
@@ -31,8 +31,8 @@ function App() {
     case "freelancing":
       pageContent = <Freelancing />;
       break;
-    case "trw":
-      pageContent = <TheRealWorld />;
+    case "work":
+      pageContent = <Work />;
       break;
     default:
       pageContent = <Homepage />;

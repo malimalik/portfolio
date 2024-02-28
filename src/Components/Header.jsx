@@ -49,9 +49,9 @@ const Header = (props) => {
             <a
               href="#"
               className="text-white hover:text-gray-300"
-              onClick={() => handleNavLinkClick('trw')}
+              onClick={() => handleNavLinkClick('work')}
             >
-              The Real World
+              Work
             </a>
           </li>
         </ul>

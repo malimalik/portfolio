@@ -4,15 +4,15 @@ const Footer = () => {
   return (
     <>
       <footer class="bg-white dark:bg-gray-900 bottom-0">
-        <div class="mx-auto w-full max-w-screen-xl lg:py-8">
-          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-          <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center sm:w-full dark:text-gray-400">
-              © 2024{" "}
+        {/* <div class="mx-auto w-full max-w-screen-xl lg:py-8"> */}
+          <hr class="border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <div class="sm:items-center sm:justify-between p-2">
+            <span class="flex sm:justify-center text-lg text-gray-500 sm:text-center sm:w-full dark:text-gray-400 mb-2">
+              © 2024 &nbsp;
               <a href="#" class="hover:underline">
-                Ali Malik ™
+                Ali Malik &nbsp;
               </a>
-              . All Rights Reserved.
+               All Rights Reserved.
             </span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
               <a
@@ -28,9 +28,8 @@ const Footer = () => {
                 >
                   <path
                     fill-rule="evenodd"
-                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
-                    clip-rule="evenodd"
-                  />
+                     d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            
                 </svg>
                 <span class="sr-only">Linkedin</span>
               </a>
@@ -75,7 +74,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </footer>
     </>
   );
