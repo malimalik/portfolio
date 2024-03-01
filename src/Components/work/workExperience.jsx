@@ -1,8 +1,10 @@
 import stats from "../../assets/stats_feature.png";
 import nc from "../../assets/neetcode.png";
-import sva from '../../assets/SVAP Dashboard.png'
-import vhistory from '../../assets/v_history.png'
-import cosapp from '../../assets/status_cosapp.png'
+import sva from "../../assets/SVAP Dashboard.png";
+import vhistory from "../../assets/v_history.png";
+import cosapp from "../../assets/status_cosapp.png";
+import hlln from "../../assets/hlln.png"
+import hlln_2 from "../../assets/hllln_2.png"
 export const workExperiences = [
   {
     title: "Development at NeetCode",
@@ -83,7 +85,7 @@ export const workExperiences = [
         </p>
         <br />
         <img src={sva} alt="stats" className="border rounded-lg" />
-        <br />  
+        <br />
         <p>
           The project was built specifically for an AI Bot using IBM Watson. The
           data inside the CMS would be sent directly to IBM Watson. This allowed
@@ -109,9 +111,21 @@ export const workExperiences = [
           etc.
         </p>
         <br />
-        <img src={cosapp} alt="cosapp" className="border rounded-lg mb-[10px]" />
-        <img src={vhistory} alt="vhistory" className="border rounded-lg mb-[10px]" />
-        <img src={vhistory} alt="vhistory" className="border rounded-lg mb-[10px]" />
+        <img
+          src={cosapp}
+          alt="cosapp"
+          className="border rounded-lg mb-[10px]"
+        />
+        <img
+          src={vhistory}
+          alt="vhistory"
+          className="border rounded-lg mb-[10px]"
+        />
+        <img
+          src={vhistory}
+          alt="vhistory"
+          className="border rounded-lg mb-[10px]"
+        />
 
         <br />
         <blockquote className="p-[15px] bg-slate-100 border rounded-[5px]">
@@ -127,6 +141,50 @@ export const workExperiences = [
       "My first ever development job, building a digital badge plug-in to automate course completion progress.",
 
     modalHeader: "Faculty of Health YorkU work",
-    body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean at congue dui, et elementum quam.Proin sagittis maximus ex, nec tincidunt est gravida at.Aenean maximus auctor erat sit amet luctus.Nullam accumsan tortor id eros imperdiet varius.Nullam vehicula eget magna sed egestas.Proin vel mi tortor.Praesent dictum et risus a laoreet.Quisque finibus dui vel nunc feugiat, at ultrices turpis ultrices.Etiam ut nisi lorem.Morbi ultrices consectetur gravida.Donec purus mi, tempor nec semper quis, gravida ut nulla.Interdum et malesuada fames ac ante ipsum primis in faucibus.Quisque tempor at mi vel ultrices.Mauris sed condimentum ipsum.Maecenas volutpat in tellus condimentum tincidunt.",
+    body: (
+      <div className="mx-[30px]">
+        <p className="font-sans">
+          This was my first ever development job. The main tasks that I had to do here had to do with 
+          creating a front-end theme and creating a full fledged digital app awarding plug-in, which awarded digital 
+          badges at the end of course completion.
+        </p>
+        <br />
+        <p>
+          This first one that you see below is a custom front-end page that I created just for Faculty of Health, within the learning management system.
+          This theme was to be only used by the students in the Faculty of Health
+        </p>
+        <br />
+        <img src={hlln} alt="stats" className="border rounded-lg" />
+        <br />
+        <p>
+          The project was built specifically for an AI Bot using IBM Watson. The
+          data inside the CMS would be sent directly to IBM Watson. This allowed
+          the user to submit the content from their department, effectively
+          allowing us to train the chat-bot.
+        </p>
+        <br />
+        <h2 className="text-3xl font-bold">Tools involved</h2>
+        <br />
+        <p>
+          The entire Learning Management System was written in PHP and through the use of PHP, custom CSS and JavaScript, I was able to develop this.
+          I was required to learn all of these on the go and I did.
+        </p>
+        <br />
+        <p>
+          The image below shows the result of using the plug-in I developed and how it automatically awards badges to the student upon course completion.
+        </p>
+        <br />
+        <img
+          src={hlln_2}
+          alt="cosapp"
+          className="border rounded-lg mb-[10px]"
+        />
+
+        <br />
+        <blockquote className="p-[15px] bg-slate-100 border rounded-[5px]">
+          Fun fact: This screenshot was actually taken the first time I got the front-end and the back-end to work.
+        </blockquote>
+      </div>
+    ),
   },
 ];

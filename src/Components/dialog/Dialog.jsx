@@ -15,7 +15,7 @@ const Dialog = ({ header, body, handleClose }) => {
           data-modal-backdrop="static"
           tabIndex="-1"
           aria-hidden="false"
-          className="fixed top-1/2 left-1/2 bg-white transform -translate-x-1/2 -translate-y-1/2 w-11/12 max-w-2xl max-h-[90vh] text-inherit p-4 border-yellow-600 border-2 rounded-lg shadow-xl z-30 animate-none overflow-auto animate-${isOpen ? 'fadeIn' : 'fadeOut'"
+          className="fixed top-1/2 left-1/2 bg-white transform -translate-x-1/2 -translate-y-1/2 w-11/12 max-w-2xl max-h-[90vh] text-inherit p-4 border-yellow-600 border-2 rounded-lg shadow-xl z-30 animate-none overflow-auto animate-fade-in"
         >
           {/* Modal content */}
           <div className="relative h-full overflow-auto">

@@ -27,7 +27,7 @@ const Header = (props) => {
               About
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#"
               className="text-white hover:text-gray-300"
@@ -35,7 +35,7 @@ const Header = (props) => {
             >
               Freelancing
             </a>
-          </li>
+          </li> */}
           <li>
             <a
               href="#"
