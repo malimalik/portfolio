@@ -18,9 +18,9 @@ const ProjectCard = () => {
                   CardTitle={workExperience.title}
                   titleHref="/#"
                   btnHref="/#"
-                  CardDescription="Lorem ipsum dolor sit amet pretium consectetur adipiscing elit. Lorem consectetur adipiscing elit."
+                  CardDescription={workExperience.about}
                   Button="View Details"
-                  modalHeader={workExperience.header}
+                  modalHeader={workExperience.modalHeader}
                   modalBody={workExperience.body}
                 />
               );
