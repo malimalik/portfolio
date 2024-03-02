@@ -5,19 +5,29 @@ const Welcome = () => {
     <section className="flex flex-col md:flex-row justify-center items-center">
       {/* Text Content */}
       <div className="w-full md:w-1/2 p-4 md:p-10">
-        <h1 className="mb-2 mt-10 p-4 md:p-10 text-4xl font-extrabold leading-10 tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
-          Hey there, I am Ali - The TRW Super Soldier 🎖️
+        <h1 className="mb-2 mt-10 p-4 md:p-10 text-4xl font-extrabold leading-loose tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black">
+          Hey, I am Ali Malik
         </h1>
 
-        <p className="mb-4 mt-2 p-4 md:p-10 text-lg font-medium text-gray-800 dark:text-gray-800">
-          I am a developer who loves doing technical writing. I create articles and visuals for online course creators.
-          See the testimonials below.
-          <br />
+        <p className="mt-2 p-4 md:p-10 text-lg font-medium text-gray-800 dark:text-gray-800">
+          I am a developer/technical writer and online course creator.
+        </p>
 
-          Oh and I also love writing blog posts, <strong>Check them out here.</strong>
+        <p className="p-4 md:p-10 text-lg font-medium text-gray-800 dark:text-gray-800">
+          Most of my expertise lie in doing Full Stack Web Development, React
+          and Tailwind, which, by the way if you are wondering is what was used
+          to create this website.
+        </p>
+
+        <p className="p-4 md:p-10 text-lg font-medium text-gray-800 dark:text-gray-800">
+          I am about 1.5 years out from University. My most recent work
+          experience has been working at NeetCode, in which I was the first
+          employee. I am now looking to work in a company which I can bring even
+          more value to. I have not only been a software engineer but also wrote
+          courses in the software engineering niche.
         </p>
       </div>
-      
+
       {/* Image */}
       <div className="w-full md:w-1/2 p-4 md:p-10 flex justify-center">
         <img
