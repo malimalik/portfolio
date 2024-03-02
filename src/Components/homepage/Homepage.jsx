@@ -6,7 +6,7 @@ const Homepage = () => {
   return (
     <>
       <Welcome></Welcome>
-      <LatestWork></LatestWork>
+      {/* <LatestWork></LatestWork> */}
     </>
   );
 };

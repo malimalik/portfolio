@@ -30,6 +30,9 @@ const Welcome = () => {
           When I am not working, I like to spend time at the gym bettering myself. My most recent endeavor is olympic weightlifting.
           I have been training for 1 year and preparing to compete this year.
         </p>
+        <p className="mt-2 mb-[15px] text-lg font-medium text-gray-800 dark:text-gray-800">
+          I invite you to check my resume and my work. Hopefully I did a good job in helping you learn a few things about me.
+        </p>
       </div>
 
       {/* Image */}
