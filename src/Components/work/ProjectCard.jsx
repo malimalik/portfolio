@@ -46,9 +46,9 @@ const SingleCard = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleOpen = () => {
+  const handleOpen = (e) => {
+    e.preventDefault();
     setIsOpen(true);
-    console.log(isOpen);
   };
 
   const handleClose = () => {
