@@ -3,18 +3,13 @@ import React from "react";
 const Resume = () => {
   return (
     <>
-      <section className="ml-60 mr-60 mt-10 mb-20">
-        <div className="mb-[25px]">
-          <h1
-            className="mb-2 mt-2 p-4 md:p-3 text-lg 
-          font-bold leading-loose tracking-tight
-           text-gray-900 md:text-2xl lg:text-5xl
-           dark:text-black text-center"
-          >
+      <section className="mx-12 md:mx-56 lg:mx-72 mt-10 mb-20">
+        <div className="mb-6">
+          <h1 className="mb-2 mt-2 p-4 md:p-3 text-lg font-bold leading-loose tracking-tight text-gray-900 md:text-2xl lg:text-5xl dark:text-black text-center">
             My Work Timeline
           </h1>
         </div>
-        <ol class="relative border-s border-gray-200 dark:border-gray-700">
+        <ol className="relative border-s border-gray-200 dark:border-gray-700">
           <li class="mb-10 ms-6">
             <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
               <svg
