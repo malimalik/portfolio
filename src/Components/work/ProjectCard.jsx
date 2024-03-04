@@ -5,10 +5,9 @@ import Dialog from "../dialog/Dialog";
 
 const ProjectCard = () => {
   return (
-    <>
-      <section className="bg-gray-2 pb-10 pt-20 dark:bg-dark lg:pb-20">
-        <div className="container">
-          <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+    <section className="bg-gray-2 pb-10 pt-20 dark:bg-dark lg:pb-20 md:w-full">
+      <div className="container">
+        <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             {workExperiences.map((workExperience) => {
               return (
                 <SingleCard
@@ -24,7 +23,6 @@ const ProjectCard = () => {
           </div>
         </div>
       </section>
-    </>
   );
 };
 
@@ -49,15 +47,14 @@ const SingleCard = ({
 
   const handleClose = () => {
     setIsOpen(false);
-    console.log(isOpen);
   };
 
   return (
     <>
       {/*  */}
-      <div className="mb-10 overflow-hidden rounded-lg bg-white shadow-1 duration-300 hover:border-stone-700 border-4 border-gray-100 dark:bg-dark-2 dark:shadow-card dark:hover:shadow-3 transition ease-in-out">
-        <img src={cover} alt="" />
-        <div className="p-8 text-center sm:p-9 md:p-7 xl:p-9">
+      <div className="mb-10 overflow-hidden rounded-lg bg-white shadow-1 duration-300 hover:border-stone-700 border-4 border-gray-100 dark:bg-dark-2 dark:shadow-card dark:hover:shadow-3">
+        <img src={cover} alt="cover" className="w-full" />
+        <div className="p-8 text-center">
           <h3>
             <a
               href={titleHref ? titleHref : "/#"}
