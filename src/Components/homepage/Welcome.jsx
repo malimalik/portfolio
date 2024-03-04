@@ -1,4 +1,5 @@
 import React from "react";
+import aboutDev from '../../assets/aboutDev.png'
 
 const Welcome = () => {
   return (
@@ -38,7 +39,7 @@ const Welcome = () => {
       {/* Image */}
       <div className="w-full md:w-1/2 p-4 md:p-10 flex justify-center">
         <img
-          src="https://www.university.com/images/university-logo.png"
+          src={aboutDev}
           alt="TRW"
           className="w-3/4 md:w-auto h-auto"
         />

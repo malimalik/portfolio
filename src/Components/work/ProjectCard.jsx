@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { workExperiences } from "./workExperience";
-import neetcode from "../../assets/neetcode.png";
-import yorku from "../../assets/yu_logo.jpg";
-import hlln from "../../assets/hlln.jpg";
+
 import Dialog from "../dialog/Dialog";
 
 const ProjectCard = () => {
@@ -14,10 +12,8 @@ const ProjectCard = () => {
             {workExperiences.map((workExperience) => {
               return (
                 <SingleCard
-                  image={neetcode}
+                  cover={workExperience.cover}
                   CardTitle={workExperience.title}
-                  titleHref="/#"
-                  btnHref="/#"
                   CardDescription={workExperience.about}
                   Button="View Details"
                   modalHeader={workExperience.modalHeader}
@@ -35,7 +31,7 @@ const ProjectCard = () => {
 export default ProjectCard;
 
 const SingleCard = ({
-  image,
+  cover,
   Button,
   CardDescription,
   CardTitle,
@@ -60,7 +56,7 @@ const SingleCard = ({
     <>
       {/*  */}
       <div className="mb-10 overflow-hidden rounded-lg bg-white shadow-1 duration-300 hover:border-stone-700 border-4 border-gray-100 dark:bg-dark-2 dark:shadow-card dark:hover:shadow-3 transition ease-in-out">
-        <img src={image} alt="" />
+        <img src={cover} alt="" />
         <div className="p-8 text-center sm:p-9 md:p-7 xl:p-9">
           <h3>
             <a
