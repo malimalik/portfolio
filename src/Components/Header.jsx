@@ -19,7 +19,6 @@ const Header = () => {
           </li>
         </ul>
     
-        {/* Brand */}
         <div className="text-white text-xl font-semibold mt-4 md:mt-0 md:ml-auto"></div>
       </div>
     </nav>

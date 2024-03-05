@@ -1,5 +1,9 @@
 import React from "react";
 
+/* I plan on adding blogs to my website as well. This card component is to be rendered on the homepage as a preview of the blog posts
+I will also add a cover photo to each one of these so it gives visitors
+*/
+
 const BlogPostCard = (props) => {
   const { title, content } = props;
   return (

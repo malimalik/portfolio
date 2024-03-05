@@ -7,9 +7,9 @@ const Footer = () => {
           <div class="sm:items-center sm:justify-between p-2">
             <span class="flex sm:justify-center text-lg text-gray-500 sm:text-center sm:w-full dark:text-gray-400 mb-2">
               © 2024 &nbsp;
-              <a href="#" class="hover:underline">
+              <p>
                 Ali Malik &nbsp;
-              </a>
+              </p>
                All Rights Reserved.
             </span>
             <div class="flex mt-4 sm:justify-center sm:mt-0">
@@ -72,7 +72,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-        {/* </div> */}
       </footer>
     </>
   );

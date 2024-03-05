@@ -52,9 +52,20 @@ export const workExperiences = [
         <br />
         <br />
         <p>
-          The feature you see below was more heavy on the front-end. What you see below serves as a roadmap to help students the order in which to take courses in.
-          To create this graph-like structure, I used an external library and the progress bar is again, specific to the user signed in.
-          The hardest part of this was making this page responsive. If you visit the <a href="https://www.neetcode.io/roadmap" className="hover:underline font-medium ">roadmap page</a>, you can drag around the cards and rearrange them to your desired order.
+          The feature you see below was more heavy on the front-end. What you
+          see below serves as a roadmap to help students the order in which to
+          take courses in. To create this graph-like structure, I used an
+          external library and the progress bar is again, specific to the user
+          signed in. The hardest part of this was making this page responsive.
+          If you visit the{" "}
+          <a
+            href="https://www.neetcode.io/roadmap"
+            className="hover:underline font-medium "
+          >
+            roadmap page
+          </a>
+          , you can drag around the cards and rearrange them to your desired
+          order.
         </p>
         <br />
         <img src={nc} alt="nc-roadmap" className="border rounded-lg" />
@@ -78,40 +89,33 @@ export const workExperiences = [
         <p className="font-sans">
           IT Innovation Lab is a department within York University. During my
           time there, I worked with the Director and 7 other cross functional
-          team members to create two applications.{" "}
+          team members to create two applications.
         </p>
         <br />
         <p>
-          The first project that I worked on was the Content Management System.
-          This was the first of its kind and was showcased at the CASCON
-          conference in 2022.
+          The project you see below is a dashboard for a content management
+          system created to speed up the training of the University's AI
+          chatbot, backed by IBM Watson. This system liaises between the content
+          creators and the Watson API since not all universities have an AI
+          specialists who can interact with the Watson API.
         </p>
         <br />
         <img src={sva} alt="stats" className="border rounded-lg" />
         <br />
         <p>
-          The project was built specifically for an AI Bot using IBM Watson. The
-          data inside the CMS would be sent directly to IBM Watson. This allowed
-          the user to submit the content from their department, effectively
-          allowing us to train the chat-bot.
+          I worked on both the frontend and the backend of the project, from designing the UI, connecting forms
+          to send data to the Watson API at the backend.
         </p>
         <br />
-        <h2 className="text-3xl font-bold">The complexity</h2>
         <br />
         <p>
-          The primary reason for developing this was to sell to other
-          Universities who did not have an AI Architect.
+          This project was successful because it allowed the content creators of
+          the content management system to upload content, eliminating the need
+          to have meetings with AI architects on a weekly basis.
         </p>
         <br />
         <p>
-          Not only this, but the next cool project that I did was done creating
-          a roadmap for all the courses that NeetCode offers. It served as a way
-          to guide students about which order they should take the course in, as
-          in what is recommended from the authors. This, again, required having
-          to fetch all the user specific information specifically with regards
-          to the progress of the user for each specific course from the backend
-          and displaying it on the front-end. This was mostly Firebase, Angular
-          etc.
+          This project was also showcased at the IBM CASCON Conference 2022, and appealed massively to big Canadian Universities.
         </p>
         <br />
         <img

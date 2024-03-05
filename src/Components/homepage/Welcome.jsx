@@ -4,7 +4,6 @@ import aboutDev from "../../assets/aboutDev.png";
 const Welcome = () => {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-center">
-      {/* Text Content */}
       <div className="p-4 md:p-10">
         <h1 className="mb-6 mt-6 text-3xl md:text-5xl lg:text-6xl font-extrabold leading-loose tracking-tight text-gray-900 dark:text-black">
           Hey, I am Ali Malik
@@ -38,7 +37,6 @@ const Welcome = () => {
         </p>
       </div>
 
-      {/* Image */}
       <div className="p-4 md:p-10 flex justify-center">
         <img
           src={aboutDev}
