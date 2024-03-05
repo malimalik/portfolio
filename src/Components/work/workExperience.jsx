@@ -115,7 +115,8 @@ export const workExperiences = [
         </p>
         <br />
         <p>
-          This project was also showcased at the IBM CASCON Conference 2022, and appealed massively to big Canadian Universities.
+          This project was also showcased at the IBM CASCON Conference 2022, and appealed massively to big Canadian Universities, including University of Ottawa, Carleton University
+          and University of Waterloo.
         </p>
         <br />
         <img
