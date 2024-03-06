@@ -1,11 +1,16 @@
 import stats from "../../assets/stats_feature.png";
 import nc from "../../assets/neetcode.png";
-import sva from "../../assets/SVAP Dashboard.png";
+import sva from "../../assets/sva_dashboard.png";
 import vhistory from "../../assets/v_history.png";
 import cosapp from "../../assets/status_cosapp.png";
+import filters from "../../assets/cosap.png";
 import hlln from "../../assets/hlln.png";
 import hlln_2 from "../../assets/hllln_2.png";
 import neetcode from "../../assets/neetcode.png";
+import step2 from "../../assets/keyword_step1.png";
+import step1 from "../../assets/keyword_step2.png";
+import step3 from "../../assets/keyword_step3.png";
+import step4 from "../../assets/keyword_step4.png";
 export const workExperiences = [
   {
     cover: neetcode,
@@ -81,65 +86,115 @@ export const workExperiences = [
     cover: sva,
     title: "Development at IT Innovation @ York University",
     about:
-      "Working in a team of 7 to build the first CMS of Higher Education in Canada and 55,000 students.",
+      "Working in a team of 7 to build the first CMS of Higher Education in Canada and 55,000 student and a proprietary course offering system to help offer courses to the students faster.",
 
     modalHeader: "IT Innovation Lab @ York University",
     body: (
       <div className="mx-[30px]">
         <p className="font-sans">
-          IT Innovation Lab is a department within York University. During my
-          time there, I worked with the Director and 7 other cross functional
-          team members to create two applications.
+          IT Innovation Lab is a department within York University. I was
+          involved in two major projects, which were launched and helped
+          thousands of students.
         </p>
         <br />
-        <p>
-          The project you see below is a dashboard for a content management
-          system created to speed up the training of the University's AI
-          chatbot, backed by IBM Watson. This system liaises between the content
-          creators and the Watson API since not all universities have an AI
-          specialists who can interact with the Watson API.
+        <h2 className="font-bold text-xl mb-2">Content Management System</h2>
+        <p className="mb-2">
+          The content management system is a platform created to speed up the
+          training of University's Student Virtual Assistant - powered by IBM
+          Watson.
         </p>
-        <br />
+        <p className="mb-2">
+          Typically, the content creators would produce the content and it would
+          be uploaded by the AI Architect. This system eliminated this and
+          significantly sped up the training process of the Virtual Assistant.
+        </p>
         <img src={sva} alt="stats" className="border rounded-lg" />
         <br />
+        <p className="mb-2">
+          The above screenshot shows the dashboard of the Content Management
+          System and what the user sees when they log in. They are able to see
+          the latest tasks assigned to them and can also request content from
+          others in the system.
+        </p>
+
+        <blockquote className="p-[15px] bg-slate-100 border rounded-[5px] mb-2 shadow-lg font-semibold">
+          The tasks section you see on the right was coded solely by me.
+        </blockquote>
+        <p className="mb-2">
+          The second feature I contributed to in this project was a complex form
+          which involved entering details of the content, form validation,
+          wiring it up with the back-end, providing user feedback etc.
+        </p>
+
+        <details>
+          <summary className="font-bold mb-2">
+            Click here for a deeper dive into the feature.
+          </summary>
+          <p>
+            The images below highlight the workflow of adding a new collection
+            (one type of content) and sending it to the backend cloud.
+          </p>
+          <br />
+          <img src={step1} alt="step-1" className="border rounded-lg mb-2" />
+          <img src={step2} alt="step-2" className="border rounded-lg mb-2" />
+          <img src={step3} alt="step-3" className="border rounded-lg mb-2" />
+          <img src={step4} alt="step-4" className="border rounded-lg mb-2" />
+        </details>
+
         <p>
-          I worked on both the frontend and the backend of the project, from designing the UI, connecting forms
-          to send data to the Watson API at the backend.
+          This project was also showcased at the IBM CASCON Conference 2022.
         </p>
         <br />
-        <br />
-        <p>
-          This project was successful because it allowed the content creators of
-          the content management system to upload content, eliminating the need
-          to have meetings with AI architects on a weekly basis.
+
+        <h2 className="font-bold text-xl mb-2">Course Offering System</h2>
+        <p className="mb-2">
+          This application was created to help reduce the time it takes for the
+          registrar to approve the courses that faculties wish to offer during
+          an academic year. Before this project, all the details would be
+          communicated via email and Excel sheets, which was highly ineffective.
         </p>
-        <br />
-        <p>
-          This project was also showcased at the IBM CASCON Conference 2022, and appealed massively to big Canadian Universities, including University of Ottawa, Carleton University
-          and University of Waterloo.
-        </p>
-        <br />
+
+        <img
+          src={filters}
+          alt="filters"
+          className="border rounded-lg mb-[10px]"
+        />
         <img
           src={cosapp}
           alt="cosapp"
           className="border rounded-lg mb-[10px]"
         />
-        <img
-          src={vhistory}
-          alt="vhistory"
-          className="border rounded-lg mb-[10px]"
-        />
+
+        <p className="mb-2">
+          The table you see above was the bread and butter of the project. I
+          solely coded this table and most of the complexity lies in the backend
+          of it.
+        </p>
+
+        <p className="mb-2">
+          All the information above is fetched from a master database, which is
+          updated once a week to reflect the latest changes through a CRON job.
+          Fetching the data from the database, getting it in the right format
+          and mapping it correctly was the biggest challenge, along with the
+          multiple filters that are observed above.
+        </p>
+        <p className="mb-2">
+          The second notable feature I worked on was a version history feature.
+          Because there are multiple users of the system, multiple users can
+          make changes to the details of the course using the "Actions" option.
+        </p>
+
+        <p className="mb-2">
+          The highlighted field depicts a change in the value of a field,
+          allowing the user to view the changes made. This made it so that
+          everyone was on the same page.
+        </p>
         <img
           src={vhistory}
           alt="vhistory"
           className="border rounded-lg mb-[10px]"
         />
 
-        <br />
-        <blockquote className="p-[15px] bg-slate-100 border rounded-[5px]">
-          Notice how there is no progress bar if the course has not been
-          started. It is conditional, that is.
-        </blockquote>
       </div>
     ),
   },

@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-const Dialog = ({ header, body, handleClose}) => {
+const Dialog = ({ header, body, handleClose }) => {
   const portalElement = document.getElementById("overlays");
 
   return (
@@ -17,10 +17,10 @@ const Dialog = ({ header, body, handleClose}) => {
           tabIndex="-1"
           aria-hidden="false"
           className="fixed bg-slate-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
-          w-11/12 max-w-2xl max-h-[90vh] text-inherit p-4 border-yellow-600 border-2 
+          w-11/12 max-w-3xl max-h-[90vh] text-inherit p-4 border-yellow-600 border-2 
           rounded-lg shadow-xl z-30 overflow-auto fadeIn transition-all 
           duration-300 ease-in-out"
-          >
+        >
           {/* Modal content */}
           <div className="relative h-full">
             {/* Modal header */}
@@ -36,7 +36,10 @@ const Dialog = ({ header, body, handleClose}) => {
               <button
                 data-modal-hide="static-modal"
                 type="button"
-                className="bg-gradient-to-r from-yellow-400 to-yellow-600 mt-6 border-none gap-2 text-white py-2 px-4 rounded-md shadow-md hover:shadow-lg"
+                className="bg-gradient-to-r from-yellow-400 to-yellow-600 mt-6 border-none gap-2 text-white py-2 px-4 rounded-md hover:shadow-lg
+                focus:ring-4 shadow-lg transform active:scale-75 transition-transform
+                
+                "
                 onClick={handleClose}
               >
                 CLOSE
