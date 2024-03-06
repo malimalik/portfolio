@@ -72,7 +72,7 @@ const SingleCard = ({
               href={btnHref ? btnHref : "#"}
               className="inline-block rounded-full px-7 py-2 text-base font-medium text-body-color transition hover:border-primary hover:bg-primary 
      hover:border-stone-700 border-2 border-gray-200
-     hover:text-black dark:border-dark-3 dark:text-dark-6"
+     hover:text-black dark:border-dark-3 dark:text-dark-6 focus:ring-4 shadow-lg transform active:scale-75 transition-transform"
               onClick={handleOpen}
             >
               {Button}

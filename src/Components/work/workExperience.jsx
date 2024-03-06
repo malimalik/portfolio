@@ -14,27 +14,27 @@ import step4 from "../../assets/keyword_step4.png";
 export const workExperiences = [
   {
     cover: neetcode,
-    title: "Development at NeetCode",
+    title: "NeetCode",
     about:
       "Working at LeetCode's competitor, being the first employee of the company and reaching 10,000 users.",
-    modalHeader: "NeetCode",
+    modalHeader: "My Work at NeetCode",
     body: (
       <div className="mx-[30px]">
-        <h4 className="text-2xl font-bold">Technologies Used</h4>
-        <br />
-        <p className="font-sans">
-          TypeScript, Angular, Firebase Functions, Docker, Bulma
+        <p>
+          NeetCode offers a wide range of courses that help software engineers
+          prepare for their interviews. This ranges from data structures to
+          algorithms to system design. Being the first employee, I collaborated
+          directly with the founder to bring the website to how it looks today.
         </p>
         <br />
 
-        <h2 className="text-2xl font-bold">My contributions</h2>
-        <br />
         <p>
-          Since NeetCode was just starting out when I joined, many of the
-          features as they are now, I have made contributions to. The feature I
-          am most proud of is the statistics feature that you see below.
+          I wore multiple hats and did a wide range of work, including creating course content, visuals for courses, and of course 
+          coding features for the website. 
         </p>
         <br />
+
+        <h2 className="font-bold text-xl mb-2">Stats for Completed Problems</h2>
 
         <p>
           This feature is located on the website's most used page and it filters
@@ -47,15 +47,16 @@ export const workExperiences = [
 
         <img src={stats} alt="stats" className="border rounded-lg" />
         <br />
-        <p>
+        <p className="mb-2">
           Though the feature looks simple on the front-end, the complexity lies
           on the backend. To implement this feature into the existing codebase,
           I was required to learn Firebase functions, Angular RxJS subjects, all
           within a week. The biggest challenge was making sure the UI updates to
           reflect the stats of the user who is signed in, especially using RxJS.
         </p>
-        <br />
-        <br />
+
+        <h2 className="font-bold text-xl mb-2">Course Roadmap</h2>
+
         <p>
           The feature you see below was more heavy on the front-end. What you
           see below serves as a roadmap to help students the order in which to
@@ -84,11 +85,11 @@ export const workExperiences = [
   },
   {
     cover: sva,
-    title: "Development at IT Innovation @ York University",
+    title: "IT Innovation @ York University",
     about:
       "Working in a team of 7 to build the first CMS of Higher Education in Canada and 55,000 student and a proprietary course offering system to help offer courses to the students faster.",
 
-    modalHeader: "IT Innovation Lab @ York University",
+    modalHeader: "My Work at IT Innovation - York University",
     body: (
       <div className="mx-[30px]">
         <p className="font-sans">
@@ -203,17 +204,16 @@ export const workExperiences = [
     about:
       "My first ever development job, building a digital badge plug-in to automate course completion progress.",
 
-    modalHeader: "Faculty of Health Development Work",
+    modalHeader: "My Work at Faculty of Health @ York University",
     body: (
       <div className="mx-[30px]">
-        <h4 className="text-2xl font-bold mb-2">Technologies Used</h4>
-        <p className="mb-2">PHP, JavaScript, Moodle, MySQL, SQL</p>
+        <h2 className="font-bold text-xl mb-2">Custom Theme</h2>
         <p className="font-sans">
           At Faculty of Health, I was required to create a custom theme within
           the University's Learning Management System, designed specifically for
           the students enrolling in courses in the Faculty. I delivered this
           within the first month of being on-boarded on the job. The theme was
-          mostly done with CSS, PHP and Vanilla JavaScript.
+          mostly done with CSS, PHP, and Vanilla JavaScript.
         </p>
         <br />
         <br />
@@ -235,10 +235,11 @@ export const workExperiences = [
         <p>
           This feature required me to integrate an external API through a badge
           awarder named Credly, design and create database tables to store
-          details of the badge and wire up the front-end with the back-end. The most challenging part was collecting the data, and sending it in a format that 
-          the back-end expects.
+          details of the badge and wire up the front-end with the back-end. The
+          most challenging part was collecting the data, and sending it in a
+          format that the back-end expects.
         </p>
- 
+
         <br />
         <img
           src={hlln_2}
