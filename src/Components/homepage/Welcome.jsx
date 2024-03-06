@@ -6,34 +6,35 @@ const Welcome = () => {
     <section className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center items-center">
       <div className="p-4 md:p-10">
         <h1 className="mb-6 mt-6 text-3xl md:text-5xl lg:text-6xl font-extrabold leading-loose tracking-tight text-gray-900 dark:text-black">
-          Hey, I am Ali Malik
+          Hey, I am Ali Malik!
         </h1>
 
         <p className="mt-2 mb-4 text-base md:text-lg lg:text-lg font-normal dark:text-gray-600">
-          I am a developer/technical writer and online course creator.
+          I am a Full Stack Developer with a passion for tackling challenges and
+          finding innovative solutions.{" "}
         </p>
 
         <p className=" mt-2 mb-[15px] text-lg font-normal text-gray-600 dark:text-gray-600">
-          Most of my expertise lie in doing Full Stack Web Development, React
-          and Tailwind, which, by the way if you are wondering is what was used
-          to create this website.
+          My experience at NeetCode, where I was the first employee, has been
+          instrumental in shaping my approach to problem-solving and software
+          development.
         </p>
 
         <p className="mt-2 mb-[15px] text-lg font-normal text-gray-600 dark:text-gray-600">
-          I am about 1.5 years out from University. My most recent work
-          experience has been working at NeetCode, in which I was the first
-          employee. I am now looking to work in a company which I can bring even
-          more value to. I have not only been a software engineer but also wrote
-          courses in the software engineering niche.
+          I am eager to continue learning and growing in this dynamic field,
+          collaborating with talented team members and contributing to impactful
+          projects.
         </p>
         <p className="mt-2 mb-[15px] text-lg font-normal text-gray-600 dark:text-gray-600">
-          When I am not working, I like to spend time at the gym bettering
-          myself. My most recent endeavor is olympic weightlifting. I have been
-          training for 1 year and preparing to compete this year.
+          Outside of work, I enjoy staying active and pursuing my interests,
+          such as Olympic weightlifting. I am excited about the opportunities
+          ahead and look forward to connecting with like-minded professionals.
+          Feel free to explore my resume and portfolio to learn more about my
+          journey and accomplishments.
         </p>
         <p className="mt-2 mb-[15px] text-lg font-normal text-gray-600 dark:text-gray-600">
-          I invite you to check my resume and my work. Hopefully I did a good
-          job in helping you learn a few things about me.
+          Let's connect on LinkedIn to discuss potential collaborations or
+          opportunities.
         </p>
       </div>
 
