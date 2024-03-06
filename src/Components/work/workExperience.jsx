@@ -194,7 +194,6 @@ export const workExperiences = [
           alt="vhistory"
           className="border rounded-lg mb-[10px]"
         />
-
       </div>
     ),
   },
@@ -204,45 +203,42 @@ export const workExperiences = [
     about:
       "My first ever development job, building a digital badge plug-in to automate course completion progress.",
 
-    modalHeader: "Faculty of Health YorkU work",
+    modalHeader: "Faculty of Health Development Work",
     body: (
       <div className="mx-[30px]">
+        <h4 className="text-2xl font-bold mb-2">Technologies Used</h4>
+        <p className="mb-2">PHP, JavaScript, Moodle, MySQL, SQL</p>
         <p className="font-sans">
-          This was my first ever development job. The main tasks that I had to
-          do here had to do with creating a front-end theme and creating a full
-          fledged digital app awarding plug-in, which awarded digital badges at
-          the end of course completion.
+          At Faculty of Health, I was required to create a custom theme within
+          the University's Learning Management System, designed specifically for
+          the students enrolling in courses in the Faculty. I delivered this
+          within the first month of being on-boarded on the job. The theme was
+          mostly done with CSS, PHP and Vanilla JavaScript.
         </p>
         <br />
-        <p>
-          This first one that you see below is a custom front-end page that I
-          created just for Faculty of Health, within the learning management
-          system. This theme was to be only used by the students in the Faculty
-          of Health
-        </p>
         <br />
         <img src={hlln} alt="stats" className="border rounded-lg" />
         <br />
-        <p>
-          The project was built specifically for an AI Bot using IBM Watson. The
-          data inside the CMS would be sent directly to IBM Watson. This allowed
-          the user to submit the content from their department, effectively
-          allowing us to train the chat-bot.
-        </p>
+        <p>The image you see above demonstrates the theme in production.</p>
         <br />
-        <h2 className="text-3xl font-bold">Tools involved</h2>
-        <br />
-        <p>
-          The entire Learning Management System was written in PHP and through
-          the use of PHP, custom CSS and JavaScript, I was able to develop this.
-          I was required to learn all of these on the go and I did.
+        <h2 className="font-bold text-xl mb-2">
+          Digital Badge Awarding System
+        </h2>
+
+        <p className="mb-2">
+          When students finish a course and all the assignments, they are
+          offered certificates of completion. Previously, this was being done
+          manually, through sending badges manually through email. With this
+          plug-in, the badges are awarded automatically, with the Learning
+          Management System handling it all.
         </p>
-        <br />
         <p>
-          The image below shows the result of using the plug-in I developed and
-          how it automatically awards badges to the student upon course
-          completion.
+          This feature required me to integrate an external API through a badge
+          awarder named Credly, design and create database tables to store
+          details of the badge and wire up the front-end with the back-end. The most challenging part was collecting the data, and sending it in a format that 
+          the back-end expects.
         </p>
+ 
         <br />
         <img
           src={hlln_2}
