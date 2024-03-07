@@ -2,10 +2,19 @@ import ReactDOM from "react-dom";
 const Dialog = ({ header, body, handleClose }) => {
   const portalElement = document.getElementById("overlays");
 
+  const handleCloseBackDrop = (e) => {
+    if (e.target === e.currentTarget) {
+      handleClose();
+    }
+  };
+
   return (
     <>
       {ReactDOM.createPortal(
-        <div className="fixed top-0 left-0 w-full h-screen z-20 bg-black bg-opacity-75 transition-opacity opacity-100">
+        <div
+          className="fixed top-0 left-0 w-full h-screen z-20 bg-black bg-opacity-75 transition-opacity opacity-100"
+          onClick={handleCloseBackDrop}
+        >
           {/* Background overlay */}
         </div>,
         portalElement

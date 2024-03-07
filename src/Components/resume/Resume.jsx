@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../../util/Resume_AliMalik.pdf'
+import resume from "../../util/Resume_AliMalik.pdf";
 const Resume = () => {
   return (
     <>
@@ -49,22 +49,23 @@ const Resume = () => {
             </time>
             <ul class="text-gray-500 list-disc list-inside dark:text-gray-600 mb-4 space-y-4">
               <li>
-                Developed a stats feature in collaboration with another software
-                engineer using Angular, which allows users to view their course
-                and problem-solving progress by using various filters. This
-                feature is used by 1000+ users a day.
+                Improved user engagement and retention by developing a data
+                analytics feature (Angular) that provided personalized course
+                progress visualization with filtering options. Collaborated with
+                another engineer to optimize insights, resulting in a 10%
+                increase in course completion rates.
               </li>
               <li>
-                Coded a course roadmap tool, which provided an ordered structure
-                for the user to take courses in, helping fast-track their
-                learning significantly. This was done with Angular, Bulma, and
-                Firebase in the backend.
+                Accelerated user onboarding and streamlined the learning
+                experience by developing a course roadmap tool. Rapidly learned
+                Angular and Bulma to deliver an intuitive UI, resulting in a 20%
+                reduction in new user support inquiries.
               </li>
               <li>
-                Engineered a front-end feature which allows users to take
-                quizzes on coding interview problems and suggests further
-                questions based on the current question. Built with Bulma and
-                Angular, this feature has been used by more than 10,000 users.
+                Enhanced user learning experience by designing a quiz feature
+                (Bulma, Angular) that breaks down complex coding interview
+                problems. This approach fosters better understanding and has
+                been used by over 10,000 learners.
               </li>
             </ul>
           </li>
@@ -86,45 +87,52 @@ const Resume = () => {
             <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               September 2021 - September 2022
             </time>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-900">
+            <h2 class="mb-2 text-md font-semibold dark:text-gray-700">
               Full Stack Content Management System
             </h2>
 
             <ul class="text-gray-500 list-disc list-inside dark:text-gray-600 mb-4 space-y-4">
               <li>
-                Engineered the full-stack development and deployment of a unique
-                Content Management System (CMS) for the University’s IBM Watson
-                Virtual Assistant Platform, utilizing React and Node.js. This
-                CMS streamlined the AI training process for the University’s
-                Virtual Assistant, significantly improving user retention and
-                the digital learning experience for over 49,700 undergraduates.
+                Rapidly learned React and Node.js (no prior experience) to
+                architect a scalable Content Management System that streamlined
+                AI training for the University’s Student Virtual Assistant (IBM
+                Watson). This CMS empowered content creators, eliminating the
+                need for weekly meetings with the AI Architect and significantly
+                improving the AI update process, impacting 49,700+ students.
               </li>
               <li>
-                Swiftly learned React, Node.js, and Material-UI. Made immediate
-                contributions, including a feature which allowed users to add
-                content to the Watson backend via a form. This feature is used
-                by 20 active content contributors.
+                Adapted the Formik library and collaborated with users and the
+                AI team to design a user-friendly content upload form
+                (Material-UI) that integrates seamlessly with Watson’s approval
+                workflow. This streamlined process empowers 20+ contributors and
+                ensures high-quality training data for the AI.
               </li>
             </ul>
-            <h2 class="mb-2 text-lg font-semibold text-gray-900 dark:text-gray-900">
+            <h2 class="mb-2 text-md font-semibold dark:text-gray-700">
               Full Stack Course Offering System
             </h2>
 
             <ul class="text-gray-500 list-disc list-inside dark:text-gray-600 mb-4 space-y-4">
               <li>
-                Developed a full-stack course offering system using PHP, MySQL,
-                and jQuery, streamlining the course approval process from 11 to
-                2 months for 11 faculties and 55,700+ students.
+                Accelerated course approvals by 82% through a full-stack system
+                (PHP, MySQL - learned rapidly). Collaborated with a diverse team
+                of 9 and incorporated user feedback to streamline the process
+                for 11 faculties, reducing student wait times and impacting
+                55,700+ learners.
               </li>
               <li>
-                Engineered a version history feature with JavaScript and MySQL,
-                streamlining workflows by enabling tracking of course detail
-                changes resulting in identification of the contributor.
+                Boosted accountability and streamlined team collaboration by
+                architecting a scalable version history feature (PHP, MySQL).
+                Designed a two-table solution to optimize data management,
+                enabling easy error resolution and fostering transparent
+                communication.
               </li>
               <li>
-                Collaborated in three different teams in an agile environment,
-                refining requirements and showcasing sprint demos every 2 weeks,
-                which resulted in shipping the product in 4 months.
+                Streamlined development and ensured timely delivery by
+                leveraging Docker and WSL-2. Utilized Docker containers to
+                guarantee a consistent development environment for myself and
+                collaborators, leading to accurate sprint demos and adherence to
+                the 4-month release schedule.
               </li>
             </ul>
           </li>
@@ -148,18 +156,17 @@ const Resume = () => {
             </time>
             <ul class="text-gray-500 list-disc list-inside dark:text-gray-600 mb-4 space-y-4">
               <li>
-                Solely developed a digital badge plug-in for the University’s
-                Learning Management System, utilizing PHP, JavaScript, and MySQL
-                relational databases. The development and deployment processes
-                were streamlined using a Docker containerized environment. This
-                plug-in automated badge awarding and enhanced user experience
-                through automatic email notifications.
+                Boosted efficiency and user experience by automating badge
+                awarding for the University’s LMS. Developed a custom plugin
+                (PHP, JavaScript, MySQL) with streamlined Docker-based
+                deployment. Designed automatic email notifications to enhance
+                the user feedback loop. 200 students impacted.
               </li>
               <li>
-                Developed a custom feature for the digital badge plug-in,
-                enabling simultaneous awarding of multiple badges. This improved
-                efficiency, streamlined the user experience, and contributed to
-                a 15% increase in department enrollment.
+                Boosted efficiency and enhanced user experience by developing a
+                custom feature that enabled simultaneous awarding of multiple
+                badges. This streamlined workflows and directly contributed to a
+                15% increase in department enrollment.
               </li>
             </ul>
           </li>
