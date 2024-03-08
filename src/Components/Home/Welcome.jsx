@@ -1,6 +1,5 @@
 import React from "react";
 import aboutDev from "../../assets/aboutDev.png";
-import styles from '../../index.css'
 const Welcome = () => {
   const paraClass =
     "mt-2 mb-[15px] text-lg font-normal text-gray-600 dark:text-gray-600";
