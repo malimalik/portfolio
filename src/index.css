@@ -1,6 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 * {
   font-family: inter;
 }
@@ -17,6 +18,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.para-styles {
+ @apply mt-2 mb-[15px] text-lg font-normal text-gray-600 dark:text-gray-600;
 }
 
 

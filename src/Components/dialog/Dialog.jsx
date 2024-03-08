@@ -46,9 +46,7 @@ const Dialog = ({ header, body, handleClose }) => {
                 data-modal-hide="static-modal"
                 type="button"
                 className="bg-gradient-to-r from-yellow-400 to-yellow-600 mt-6 border-none gap-2 text-white py-2 px-4 rounded-md hover:shadow-lg
-                focus:ring-4 shadow-lg transform active:scale-75 transition-transform
-                
-                "
+                focus:ring-4 shadow-lg transform active:scale-75 transition-transform"
                 onClick={handleClose}
               >
                 CLOSE

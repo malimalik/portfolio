@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { workExperiences } from "./workExperience";
 
-import Dialog from "../dialog/Dialog";
+import Dialog from "../Dialog/Dialog";
 
 const ProjectCard = () => {
   return (

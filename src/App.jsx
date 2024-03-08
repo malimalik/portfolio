@@ -1,12 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import Resume from "./Components/resume/Resume";
+import Resume from "./Components/Resume/Resume";
 import Footer from "./Components/Footer";
-import Work from "./Components/work/Work";
+import Work from "./Components/Work/Work";
 import Header from "./Components/Header";
 import "./App.css";
-import Homepage from "./Components/homepage/Homepage";
+import Homepage from "./Components/Home/Homepage";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         </div>
       </Router>
 
-      <Footer></Footer>
+      <Footer />
     </>
   );
 }
