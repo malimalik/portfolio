@@ -51,7 +51,6 @@ const SingleCard = ({
 
   return (
     <>
-      {/*  */}
       <div className="mb-10 overflow-hidden rounded-lg bg-white shadow-1 duration-300 hover:border-stone-700 border-4 border-gray-100 dark:bg-dark-2 dark:shadow-card dark:hover:shadow-3">
         <img src={cover} alt="cover" className="w-full" />
         <div className="p-8 text-center">
