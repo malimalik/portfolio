@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Ali Malik Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Description
+
+I created this project because it just makes sense for a developer to have a portfolio that they coded themselves.
+I coded this using React, Tailwind (which was my very first time using it). There is not much complexity in the backend - majority of it lies in the front-end.
+
+I crafted 100% of the design by myself and created as the needed arose itself. The design is pretty simple in its making.
+It just has three pages, including "Home", "Resume" and "Work", making it all quite easy to understand.
+
 
 ## Available Scripts
 
