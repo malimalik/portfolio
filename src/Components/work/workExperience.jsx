@@ -223,9 +223,9 @@ export const workExperiences = [
           The first project I was assigned with was creating a custom theme
           within the University's Learning Management System, tailored
           specifically for students enrolling in courses within the Faculty. I
-          successfully delivered this within the first month of being in the position. 
-          The theme was primarily developed using CSS, PHP, and Vanilla
-          JavaScript.
+          successfully delivered this within the first month of being in the
+          position. The theme was primarily developed using CSS, PHP, and
+          Vanilla JavaScript.
         </p>
         <br />
         <br />
