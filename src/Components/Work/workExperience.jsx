@@ -212,13 +212,19 @@ export const workExperiences = [
     modalHeader: "My Work at Faculty of Health - York University",
     body: (
       <div className="mx-[30px]">
+        <p>
+          Faculty of Health is one of the 11 faculties. I worked within a
+          department within the faculty for a summer to help develop features
+          specific to the needs of the students within the faculty
+        </p>
+
         <h2 className="font-bold text-xl mb-2">Custom Theme</h2>
         <p className="font-sans">
-          At the Faculty of Health, I was tasked with creating a custom theme
+          The first project I was assigned with was creating a custom theme
           within the University's Learning Management System, tailored
           specifically for students enrolling in courses within the Faculty. I
-          successfully delivered this within the first month of starting the
-          job. The theme was primarily developed using CSS, PHP, and Vanilla
+          successfully delivered this within the first month of being in the position. 
+          The theme was primarily developed using CSS, PHP, and Vanilla
           JavaScript.
         </p>
         <br />
