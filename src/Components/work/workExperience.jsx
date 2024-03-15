@@ -63,7 +63,7 @@ export const workExperiences = [
           take courses in. To create this graph-like structure, I used an
           external library and the progress bar is again, specific to the user
           signed in. The hardest part of this was making this page responsive.
-          If you visit the
+          If you visit the {" "}
           <a
             href="https://www.neetcode.io/roadmap"
             className="hover:underline font-medium "
