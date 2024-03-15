@@ -77,7 +77,7 @@ export const workExperiences = [
         <img src={nc} alt="nc-roadmap" className="border rounded-lg" />
         <br />
         <blockquote className="p-[15px] bg-slate-100 border rounded-[5px]">
-          No progress bar under a course card indicates that the course has not been started by the user
+          No progress bar under a course card indicates that the course has not been started by the user.
         </blockquote>
       </div>
     ),
