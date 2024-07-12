@@ -36,7 +36,7 @@ export const workExperiences = [
         <br />
 
         <h2 className="font-bold text-xl mb-2">Stats for Completed Problems</h2>
-
+        
         <p>
           This feature is located on the website's most used page and it filters
           down the user progress and gives them real time feedback on their
@@ -177,6 +177,9 @@ export const workExperiences = [
           coded this table, and most of its complexity lies in the backend.
         </p>
 
+
+
+
         <p className="mb-2">
           All the information above is fetched from a master database, which is
           updated once a week to reflect the latest changes through a CRON job.
@@ -215,8 +218,9 @@ export const workExperiences = [
         <p>
           Faculty of Health is one of the 11 faculties. I worked within a
           department within the faculty for a summer to help develop features
-          specific to the needs of the students within the faculty
+          specific to the needs of the students within the faculty.
         </p>
+        <br />
 
         <h2 className="font-bold text-xl mb-2">Custom Theme</h2>
         <p className="font-sans">
@@ -227,7 +231,6 @@ export const workExperiences = [
           position. The theme was primarily developed using CSS, PHP, and
           Vanilla JavaScript.
         </p>
-        <br />
         <br />
         <img src={hlln} alt="stats" className="border rounded-lg" />
         <br />
