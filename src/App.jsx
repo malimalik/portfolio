@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Router>
-        <div className="bg-amber-500 w-auto h-auto">
+        <div className="bg-white w-auto h-auto">
           <Header />
           <Routes>
             <Route path="/resume" element={<Resume />} />
