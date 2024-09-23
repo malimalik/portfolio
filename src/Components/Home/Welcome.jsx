@@ -46,6 +46,7 @@ const Welcome = () => {
           className="w-full md:max-w-full lg:max-w-none h-auto"
         />
       </div>
+      
     </section>
   );
 };

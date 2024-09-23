@@ -20,6 +20,15 @@ module.exports = {
           from: { opacity: 1, transform: 'scale(1)' },
           to: { opacity: 0, transform: 'scale(0.9)' },
         },
+
+        rotate: {
+          "0%": { transform: "rotate(0deg) scale(10)" },
+          "100%": { transform: "rotate(-360deg) scale(10)" },
+        },
+      },
+
+      animation: {
+        rotate: "rotate 3s linear infinite",
       },
     }
     
