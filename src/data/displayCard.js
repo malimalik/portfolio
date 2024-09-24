@@ -10,7 +10,7 @@ const data = [
         content: "Get custom animations for your specific courses. Boost your sales today."
     },
     {
-            title: "Animation",
+        title: "Animation",
         content: "Get custom animations for your specific courses. Boost your sales today."
     }
 ]

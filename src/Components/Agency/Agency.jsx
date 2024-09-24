@@ -69,6 +69,8 @@ const Agency = () => {
   </div>
 </section>
 
+{/* Section is dedicated to letting the users know more about why they need animation - leading them further down the sales funnel*/}
+
   <section className='services grid grid-flow-col overflow-x-auto border-black w-1/2 h-auto'>
 
       {data.map((el) => {
@@ -77,11 +79,31 @@ const Agency = () => {
         )
       })}
        
+</section>
+
+
+<article className='w-2/3 bg-blue-950 border-blue-300 my-10 rounded-lg bg-blend-normal'>
+<section className='class="py-[87px] px-[91px] flex justify-center flex-row flex-wrap'>
+
+        <div className='w-1/2'>
+          <iframe src="" frameborder="0"></iframe>
+        </div>
+
+
+        <div className='w-1/2 mt-5 space-y-4'>
+        
+          <h1 className='text-4xl mb-3'>Leave your visitors and viewers surprised at how you came up with your videos.</h1>
+          <p className='mb-2'>World class service that makes you go, "I have been needing this my entire life, yes please!!"</p>
+        
+        </div>
+
+
 
 
 
 </section>
 
+</article>
 
       </div>
       </div>
