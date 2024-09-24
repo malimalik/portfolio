@@ -3,6 +3,8 @@ import Facts from './Facts';
 import Button from './Button';
 import VideoPreview from './VideoPreview';
 import DisplayCard from './DisplayCard';
+import Data from '../../data/displayCard'
+import data from '../../data/displayCard';
 
 const Agency = () => {
   return (
@@ -69,12 +71,11 @@ const Agency = () => {
 
   <section className='services grid grid-flow-col overflow-x-auto border-black w-1/2 h-auto'>
 
-       <DisplayCard></DisplayCard>
-       <DisplayCard></DisplayCard>
-
-       <DisplayCard></DisplayCard>
-       <DisplayCard></DisplayCard>
-       <DisplayCard></DisplayCard>
+      {data.map((el) => {
+        return (
+         <DisplayCard title={el.title} content={el.content}/>
+        )
+      })}
        
 
 
